@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>¡Resultado de datos!</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+  <h1>Resultados</h1>
+  <img src="pusheen.gif">
+ 
+
+  <p>Nombre: <span id="name"></span></p>
+  <p>Edad: <span id="age"></span></p>
+  <p>Ciudad: <span id="city"></span></p>
+  <p>Pasatiempo favorito: <span id="hobby"></span></p>
+
+  <h2>¡Bien hecho!</h2>
+
+  <script>
+    var params = new URLSearchParams(window.location.search);
+    document.getElementById("name").textContent = params.get("name");
+    document.getElementById("age").textContent = params.get("age");
+    document.getElementById("city").textContent = params.get("city");
+    document.getElementById("hobby").textContent = params.get("hobby");
+  </script>
+</body>
+</html>

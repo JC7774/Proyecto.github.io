@@ -1,0 +1,80 @@
+body {
+    
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background-color: rgb(255, 255, 116);
+    padding-bottom: 5rem;
+  }
+
+
+  
+  h1 {
+    color: black;
+    padding: 0rem 0;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: "Arial", cursive;
+    letter-spacing: 1px;
+  }
+    h2 {
+        color: black;
+        padding: 0rem 0;
+        text-align: center;
+        text-transform: uppercase;
+        font-family: "Arial", cursive;
+        letter-spacing: 1px;
+    }
+ p {
+            color: black;
+            padding: 0rem 0;
+            text-align: center;
+            text-transform: uppercase;
+            font-family: "Arial", cursive;
+            letter-spacing: 1px;
+
+  }
+  
+  form {
+    width: 400px;
+    margin: 0 auto;
+  }
+  
+  label {
+    font-family: arial, sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    letter-spacing: 3.2pt;
+    word-spacing: 3.8pt;
+    color: black;
+  }
+  
+  input[type="text"] {
+    width: 100%;
+    padding: 5px;
+    font-size: 16px;
+  }
+  
+  button {
+    margin-top: 10px;
+  padding: 8px 16px;
+  font-size: 16px;
+  }
+  
+  p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    letter-spacing: 1.4px;
+    word-spacing: 2px;
+    color: #000000;
+    font-weight: normal;
+    text-decoration: none;
+    font-style: normal;
+    font-variant: normal;
+    text-transform: none;
+  }
+  
+  span {
+    font-weight: bold;
+  }
+  
